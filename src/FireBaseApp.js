@@ -10,3 +10,5 @@ import firebase from 'firebase'
   };
 
   export const fireBaseApp = firebase.initializeApp(config);
+
+  export const eventsRef = fireBaseApp.database().ref().child('events')

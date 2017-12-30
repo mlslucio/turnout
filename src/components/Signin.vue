@@ -9,6 +9,7 @@
 		</div><br>
 		<p>{{error.message}}</p>
 		<br>
+		<router-link to="/signup">Sign Up</router-link>
 	</div>
 </template>
 
